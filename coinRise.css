@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header_Container {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(34, 29, 29, 0.158);
+    /* filter: blur(0.5px); */
+    position: fixed;
+    top: 0px;
+    border-bottom: 2px solid yellow;
+}
+
+.header_Div {
+    width: 90%;
+    height: 90px;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.logo_Div {
+    width: 20%;
+    /* background-color: pink; */
+    /* color: red; */
+    font-size: 25px;
+}
+
+.inner_Header {
+    flex: 1;
+    /* background-color: pink; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    /* color: white; */
+    /* color: black; */
+}
+
+nav a:hover {
+    color: #f7a400;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-inline: 14px;
+    height: 60px;
+    /* color: #fff; */
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #191d88;
+}
+
+.nav ul li:hover {
+    color: #f7a400;
+}
+
+.inner_Header1 {
+    width: 25%;
+    /* background-color: pink; */
+    display: flex;
+    gap: 10px;
+}
+
+.inner_Header1 button {
+    width: 40%;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #191d88;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.inner_Header1 button:hover {
+    background-color: #f7a400;
+    color: white;
+}
+
+.body_Section {
+    width: 100%;
+    height: 590px;
+    /* background-color: purple; */
+    margin-top: 90px;
+    /* display: flex; */
+    background-image: url(image/bgt.jpg);
+    background-size: cover;
+}
+
+.body_Section h1{
+    padding-top: 130px;
+    width: 90%;
+    margin-left: 70px;
+    color: white;
+    font-size: 75px;
+}
+
+.body_Section p{
+    width: 90%;
+    margin-left: 70px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.body_Button button {
+    width: 20%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #191d88;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.body_Button button:hover {
+    background-color: #f7a400;
+    color: white;
+}
